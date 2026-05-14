@@ -1,0 +1,21 @@
+# 데이터 파일 제외
+*.csv
+*.parquet
+*.xlsx
+
+# 모델, 체크포인트 파일 제외
+*.pkl
+*.h5
+*.pt
+*.joblib
+
+# 로그, 캐시 파일 제외
+*.log
+*.tmp
+__pycache__/
+.ipynb_checkpoints/
+
+# 가상환경 폴더 제외
+venv/
+.env/
+
